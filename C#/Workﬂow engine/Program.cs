@@ -17,6 +17,7 @@ namespace ConsoleApp12
             _WorkflowEngnine.RegisterWorkflow(new CallAWebService());
             _WorkflowEngnine.RegisterWorkflow(new ChangeTheStatus());
             _WorkflowEngnine.Run();
+            Console.ReadLine();
         }
     }
 }
